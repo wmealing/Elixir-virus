@@ -10,7 +10,7 @@ system can connect to.
 
 Start the infected node.
 
-# iex --sname somenode --cookie "HELLO" -S mix
+\# iex --sname somenode --cookie "HELLO" -S mix
 Erlang/OTP 25 [erts-13.1.3] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:1] [jit]
 
 Interactive Elixir (1.14.3) - press Ctrl+C to exit (type h() ENTER for help)
@@ -34,7 +34,7 @@ iex(somenode@Fedora-37)1> Evirus.start
 
 And from another node..
 
-# iex --sname anothernode --cookie "HELLO" -S mix 
+\# iex --sname anothernode --cookie "HELLO" -S mix 
 
 This could be any node, erlang beam, etc.
 
